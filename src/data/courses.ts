@@ -52,7 +52,7 @@ export const courses: GolfCourse[] = [
         images: [
           "https://marineandlawn.wpenginepowered.com/slievedonard/wp-content/uploads/sites/11/2023/02/SD-HEADER-IMAGE-1.jpg",
           "https://marineandlawn.wpenginepowered.com/slievedonard/wp-content/uploads/sites/11/2023/05/SD-ROOMS-1.jpg",
-          "https://marineandlawn.wpenginepowered.com/slievedonard/wp-content/uploads/sites/11/2024/03/SD_Chandilier_Room.jpg",
+          "https://marineandlawn.wpenginepowered.com/slievedonard/wp-content/uploads/sites/11/2023/05/Slieve_Pool_2.jpg",
         ],
       },
     ],
@@ -363,6 +363,21 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 180, max: 320, currency: "GBP" },
         description: "A romantic Irish inn beside the world's oldest whiskey distillery. Excellent dining and warm atmosphere.",
         website: "https://www.bushmillsinn.com",
+      },
+      {
+        name: "Portrush Adelphi Hotel",
+        stars: 4,
+        hasWellness: false,
+        hasSpa: false,
+        distanceKm: 0.5,
+        pricePerNight: { min: 160, max: 300, currency: "GBP" },
+        description: "A stylish boutique hotel in the heart of Portrush town, steps from the seafront and the links.",
+        website: "https://marineandlawn.com/portrushadelphi/",
+        images: [
+          "https://marineandlawn.wpenginepowered.com/wp-content/uploads/2025/09/portrush_2-1024x768.jpg",
+          "https://marineandlawn.wpenginepowered.com/wp-content/uploads/2026/01/PA_Bedroom.jpg",
+          "https://marineandlawn.wpenginepowered.com/wp-content/uploads/2026/01/pa_lobbyy.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -795,7 +810,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 0.3,
         pricePerNight: { min: 200, max: 450, currency: "GBP" },
         description: "A grand Victorian hotel overlooking the course and the Firth of Forth, with excellent spa.",
-        website: "https://www.macdonaldhotels.co.uk/marine-north-berwick",
+        website: "https://marineandlawn.com/marinenorthberwick/",
+        images: [
+          "https://marineandlawn.wpenginepowered.com/marinenorthberwick/wp-content/uploads/sites/7/2025/07/home_bass.jpg",
+          "https://marineandlawn.wpenginepowered.com/marinenorthberwick/wp-content/uploads/sites/7/2022/01/our_rooms_NB-763x1024.jpg",
+          "https://marineandlawn.wpenginepowered.com/marinenorthberwick/wp-content/uploads/sites/7/2023/11/mt-spa-leisure.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -862,6 +882,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 350, max: 800, currency: "USD" },
         description: "America's premier golf resort with multiple world-class courses and superb lodges.",
         website: "https://www.bandondunesresort.com",
+        images: [
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Lodge.jpg",
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Inn.jpg",
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Grove.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1861,6 +1886,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 350, max: 900, currency: "USD" },
         description: "The flagship lodge of America's premier golf resort. Multiple dining options and full service spa.",
         website: "https://www.bandondunesresort.com",
+        images: [
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Lodge.jpg",
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Inn.jpg",
+          "https://bandondunesgolf.com/wp-content/uploads/2024/06/Website-Home-Page-Slider-Grove.jpg",
+        ],
       },
     ],
     restaurants: [
