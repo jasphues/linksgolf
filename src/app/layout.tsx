@@ -15,11 +15,30 @@ export const metadata: Metadata = {
   description:
     "Discover, compare, and book the world's greatest links golf courses. Expert guides on every course, from Royal County Down to Cabot Cliffs.",
   keywords: ["links golf", "golf courses", "golf travel", "links courses", "golf holidays"],
+  icons: {
+    icon: "/linksgolf.png",
+    shortcut: "/linksgolf.png",
+    apple: "/linksgolf.png",
+  },
   openGraph: {
     title: "LINKSGOLF — The World's Finest Links Courses",
     description: "Discover and compare the world's greatest links golf courses.",
     type: "website",
     url: "https://linksgolf.xyz",
+    images: [
+      {
+        url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/99/32/9f/rolling-fairways-high.jpg?w=1400&h=800&s=1",
+        width: 1400,
+        height: 800,
+        alt: "Links golf aerial view",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LINKSGOLF — The World's Finest Links Courses",
+    description: "Discover and compare the world's greatest links golf courses.",
+    images: ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/99/32/9f/rolling-fairways-high.jpg?w=1400&h=800&s=1"],
   },
 };
 
