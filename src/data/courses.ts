@@ -279,7 +279,7 @@ export const courses: GolfCourse[] = [
       "https://www.carnoustiegolflinks.com/wp-content/uploads/2014/11/Championship-12.jpg",
       "https://www.carnoustiegolflinks.com/wp-content/uploads/2014/11/Championship-18.jpg",
     ],
-    heroImage: "https://www.carnoustiegolflinks.com/wp-content/uploads/2018/05/CarnoustieGC.Ogilvie_NHastiePhoto_04.18-1.jpg",
+    heroImage: "https://www.carnoustiegolflinks.com/wp-content/uploads/2014/11/4th_green_Championship_course-bell.jpg",
     videoId: "dQw4w9WgXcQ",
     website: "https://www.carnoustiegolflinks.co.uk",
     hotels: [
@@ -1135,7 +1135,7 @@ export const courses: GolfCourse[] = [
       "https://www.watervillegolflinks.ie/wp-content/uploads/2025/12/WATERVILLE-GOLF-1.jpg",
       "https://www.watervillegolflinks.ie/wp-content/uploads/2025/12/WATERVILLE-GOLF-2.jpg",
     ],
-    heroImage: "https://www.watervillegolflinks.ie/wp-content/uploads/2023/02/Golf-courses-in-ireland-608.jpg",
+    heroImage: "https://www.watervillegolflinks.ie/wp-content/uploads/2023/02/Golf-courses-in-ireland-616.jpg",
     website: "https://www.watervillegolflinks.ie",
     hotels: [
       {
@@ -1627,7 +1627,7 @@ export const courses: GolfCourse[] = [
       "https://golfcoursegurus.com/photos/ireland/countysligo/large/County%20Sligo%203rd%202025.jpg",
       "https://golfcoursegurus.com/photos/ireland/countysligo/large/County%20Sligo%202nd%20fairway%20back.jpg",
     ],
-    heroImage: "https://countysligogolfclub.ie/wp-content/uploads/2025/04/image-14-e1745037860211.png",
+    heroImage: "https://countysligogolfclub.ie/wp-content/uploads/2022/02/county-sligo-golf-club-colt-championship-links-2-xl.jpeg",
     website: "https://www.countysligogolfclub.ie",
     hotels: [
       {
@@ -2328,7 +2328,7 @@ export const courses: GolfCourse[] = [
       "https://golfclubatlas.com/wp-content/uploads/2016/03/DJI_20260228025052_0352_D-2-1024x576.jpg",
       "https://golfclubatlas.com/wp-content/uploads/2008/12/DJI_20260303034049_0753_D-1024x576.avif",
     ],
-    heroImage: "https://golfclubatlas.com/wp-content/uploads/2016/03/DJI_20260228025052_0352_D-2-1024x576.jpg",
+    heroImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4a/4a/7f/kennemer-golf-country.jpg?w=1200&h=700&s=1",
     website: "https://www.kennemer.nl",
     hotels: [
       {
@@ -2758,7 +2758,7 @@ export const courses: GolfCourse[] = [
       "https://leopardcreek.co.za/wp-content/uploads/2021/07/lc-main-course-gallery-15.jpg",
       "https://leopardcreek.co.za/wp-content/uploads/2025/02/leopard-fi-1.jpg",
     ],
-    heroImage: "https://leopardcreek.co.za/wp-content/uploads/2025/02/leopard-fi-1.jpg",
+    heroImage: "https://leopardcreek.co.za/wp-content/uploads/2021/07/lc-main-course-gallery-1.jpg",
     website: "https://www.leopardcreek.co.za",
     hotels: [
       {
