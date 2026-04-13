@@ -138,6 +138,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 0.3,
         pricePerNight: { min: 90, max: 160, currency: "GBP" },
         description: "A cosy inn at the heart of the village, popular with golfers for its excellent food and warm hospitality.",
+        website: "https://eagledornoch.co.uk",
+        images: [
+          "https://eagledornoch.co.uk/wp-content/uploads/2025/08/about-01.jpg",
+          "https://eagledornoch.co.uk/wp-content/uploads/2025/08/the-eagle-hotel-02.jpg",
+          "https://eagledornoch.co.uk/wp-content/uploads/2025/11/Function-Room.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -286,6 +292,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 180, max: 380, currency: "GBP" },
         description: "The only hotel on the links, offering stunning views and direct access to the courses.",
         website: "https://www.carnoustiegolfhotel.com",
+        images: [
+          "https://carnoustiegolfhotel.com/wp-content/uploads/2024/11/Exterior_5-1.jpg",
+          "https://carnoustiegolfhotel.com/wp-content/uploads/2024/11/JuniorSuite_2.jpg",
+          "https://carnoustiegolfhotel.com/wp-content/uploads/2024/11/FunctionRoom_3.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -353,6 +364,11 @@ export const courses: GolfCourse[] = [
         distanceKm: 8,
         pricePerNight: { min: 150, max: 280, currency: "GBP" },
         description: "A charming hotel beside the Giant's Causeway, combining golf and one of the world's great natural wonders.",
+        website: "https://thecausewayhotel.com",
+        images: [
+          "https://thecausewayhotel.com/wp-content/uploads/2021/12/IMG_9787-1-scaled.jpg",
+          "https://thecausewayhotel.com/wp-content/uploads/2021/06/room-insert1.jpg",
+        ],
       },
       {
         name: "Bushmills Inn",
@@ -363,6 +379,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 180, max: 320, currency: "GBP" },
         description: "A romantic Irish inn beside the world's oldest whiskey distillery. Excellent dining and warm atmosphere.",
         website: "https://www.bushmillsinn.com",
+        images: [
+          "https://bushmillsinn.com/wp-content/uploads/2026/03/bushmillsinn-entrance-wide.jpg",
+          "https://bushmillsinn.com/wp-content/uploads/2025/06/Bushmillsinn_Mill_House_Deluxe.webp",
+          "https://bushmillsinn.com/wp-content/uploads/2025/09/bushmillsinn-main-image-fireplace.webp",
+        ],
       },
       {
         name: "Portrush Adelphi Hotel",
@@ -739,6 +760,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 140, max: 260, currency: "EUR" },
         description: "A harbour-front hotel in the charming town of Kinsale, with leisure centre.",
         website: "https://www.actonshotelkinsale.com",
+        images: [
+          "https://www.actonshotelkinsale.com/wp-content/uploads/2022/06/Harbour-View.jpg",
+          "https://www.actonshotelkinsale.com/wp-content/uploads/2023/06/Jamesfort-Suite-scaled.jpg",
+          "https://www.actonshotelkinsale.com/wp-content/uploads/2022/06/Health-Banner@2x-scaled.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1092,6 +1118,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 160, max: 290, currency: "EUR" },
         description: "A charming family-run hotel at the heart of Waterville village, with pool and leisure facilities.",
         website: "https://www.butlerarms.com",
+        images: [
+          "https://butlerarms.com/wp-content/uploads/2022/11/large_butlerarms_patio.webp",
+          "https://butlerarms.com/wp-content/uploads/2022/10/Butler-Arms-Hotel-Deluxe-Sea-View-Room-3.jpg",
+          "https://butlerarms.com/wp-content/uploads/2022/11/Butlers-Arms-5.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1219,6 +1250,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 3,
         pricePerNight: { min: 120, max: 200, currency: "GBP" },
         description: "An elegant Victorian mansion hotel in Ayr, convenient for the Ayrshire links circuit.",
+        website: "https://www.fairfieldhousehotel.co.uk",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/0a/cb/aa/exterior.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/0a/cb/8e/bedroom.jpg?w=500&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/be/13/bd/evening-restaurant-and.jpg?w=300&h=200&s=1",
+        ],
       },
     ],
     restaurants: [
@@ -1285,6 +1322,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 25,
         pricePerNight: { min: 160, max: 320, currency: "GBP" },
         description: "A luxury golf resort and spa in Cheshire, excellent base for Wirral links golf.",
+        website: "https://www.themere.co.uk",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/27/b6/46/the-mere-golf-resort.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/27/bb/60/the-mere-golf-resort.jpg?w=900&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/27/b5/cd/the-mere-golf-resort.jpg?w=900&h=500&s=1",
+        ],
       },
     ],
     restaurants: [
@@ -1492,6 +1535,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 130, max: 230, currency: "EUR" },
         description: "A comfortable hotel and spa adjacent to the golf club, with indoor pool and leisure centre.",
         website: "https://www.ballyliffingolfclub.com",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/3d/f6/bc/ballyliffin-lodge-spa.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/3b/0b/04/pool-hot-tub-steam-room.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/6f/04/e8/elegance-and-class-throughout.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1556,6 +1604,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 8,
         pricePerNight: { min: 140, max: 250, currency: "EUR" },
         description: "Modern hotel with excellent spa, conveniently located between Sligo town and Rosses Point.",
+        website: "https://www.radsligo.com",
+        images: [
+          "https://www.radsligo.com/wp-content/uploads/2018/09/lrg-exterior-03.jpg",
+          "https://www.radsligo.com/wp-content/uploads/2020/01/Sligo-Family-55-scaled.jpg",
+          "https://www.radsligo.com/wp-content/uploads/2025/04/RS_20259-1920x1080.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1697,6 +1751,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 20,
         pricePerNight: { min: 200, max: 400, currency: "EUR" },
         description: "A luxury resort with championship parkland course and spa, a short drive from The European Club.",
+        website: "https://www.druidsglenresort.com",
+        images: [
+          "https://www.druidsglenresort.com/cmsGallery/imagerow/7659/resized/1600x900/aerial_shot_druids_glen_hotel_golf_resort.jpg",
+          "https://www.druidsglenresort.com/cmsGallery/imagerow/7659/resized/1600x900/druids_glen_guestrooms.jpg",
+          "https://www.druidsglenresort.com/cmsGallery/imagerow/7659/resized/1600x900/the_spa_2025_2.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1760,6 +1820,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 1,
         pricePerNight: { min: 110, max: 200, currency: "GBP" },
         description: "A traditional Scottish hotel in the heart of Nairn, popular with golfers visiting the area.",
+        website: "https://www.muthuhotelsmgm.com",
+        images: [
+          "https://www.muthuhotelsmgm.com/uploads/image-slider/9850a78feb0a4ebe7da2ae6cc441ffcf1690896683.webp",
+          "https://www.muthuhotelsmgm.com/uploads/image-slider/107c9d061688dab89166142a92999ef31691507247.jpg",
+          "https://www.muthuhotelsmgm.com/uploads/image-slider/063f0e820ba236208b3e19e01d48a6061683097745.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1821,6 +1887,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 0.5,
         pricePerNight: { min: 90, max: 160, currency: "GBP" },
         description: "A traditional Highland hotel beside the course, ideal base for a Sutherland golf trip.",
+        website: "https://www.royalmarinehotel.co.uk",
+        images: [
+          "https://www.royalmarinehotel.co.uk/wp-content/uploads/2016/07/royalmarinehotel-modern.png",
+          "https://www.royalmarinehotel.co.uk/wp-content/uploads/2016/09/Single-Room.jpg",
+          "https://www.royalmarinehotel.co.uk/wp-content/uploads/2016/09/Standard-Double.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1950,7 +2022,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 0.5,
         pricePerNight: { min: 400, max: 900, currency: "CAD" },
         description: "World-class lodge resort with panoramic sea views, spa, and exceptional dining.",
-        website: "https://www.cabotlinks.com",
+        website: "https://cabot.com/capebreton/lodge/",
+        images: [
+          "https://uploads.thecabotcollection.com/uploads/2025/11/Cabot_Resort_Accommodations_Lodge-Rooms_Header_LR.jpg",
+          "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/links-Banner-1.jpg",
+          "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2026/01/3A8CD57D-07E1-455A-AB1D-3091C0A3C769_1_201_a-2-3680x2453.jpeg",
+        ],
       },
     ],
     restaurants: [
@@ -2358,6 +2435,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 10,
         pricePerNight: { min: 150, max: 280, currency: "GBP" },
         description: "A magnificent Victorian hotel on Lytham's seafront with leisure club.",
+        website: "https://www.thegrandlytham.co.uk",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e0/0f/35/the-grand-hotel.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/2b/05/f5/the-grand-hotel.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/57/5e/fd/restaurant--v10747185.jpg?w=300&h=200&s=1",
+        ],
       },
     ],
     restaurants: [
@@ -2494,6 +2577,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 8,
         pricePerNight: { min: 150, max: 280, currency: "EUR" },
         description: "A comfortable hotel in the charming village of Malahide, close to Dublin Airport.",
+        website: "https://www.thegrand.ie",
+        images: [
+          "https://www.thegrand.ie/wp-content/uploads/2025/08/1.-The-Grand-Hotel-in-Malahide-4-Star-hotel-in-Dublin-400x400.jpg",
+          "https://www.thegrand.ie/wp-content/uploads/2025/08/Superior-Rooms-864x517.jpg",
+          "https://www.thegrand.ie/wp-content/uploads/2025/08/3.-The-Grand-Hotel-Swimming-pool-and-Gym-facilities-leisure-stay-by-the-sea-400x400.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -2699,6 +2788,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 15,
         pricePerNight: { min: 3000, max: 8000, currency: "ZAR" },
         description: "KwaZulu-Natal's finest hotel in Umhlanga Rocks, overlooking the Indian Ocean.",
+        website: "https://www.southernsun.com/beverly-hills",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/cd/18/1c/beverly-hills-hotel.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b3/58/8a/beverly-hills.jpg?w=900&h=500&s=1",
+          "https://drsprnoe9nnhf.cloudfront.net/southernsun-04222022/cms/imagepool/62f3c23850736.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -2841,6 +2936,11 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 150, max: 280, currency: "GBP" },
         description: "A charming boutique hotel overlooking the bay, part of the Machrihanish golf resort.",
         website: "https://www.machrihanishdunes.com",
+        images: [
+          "https://machrihanishdunes.com/wp-content/uploads/2015/01/ugadale-1.jpg",
+          "https://machrihanishdunes.com/wp-content/uploads/2015/01/ugadale-2.jpg",
+          "https://machrihanishdunes.com/wp-content/uploads/2015/01/ugadale-3.jpg",
+        ],
       },
     ],
     restaurants: [
