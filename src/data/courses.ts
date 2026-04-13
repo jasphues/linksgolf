@@ -2130,6 +2130,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 20,
         pricePerNight: { min: 280, max: 550, currency: "AUD" },
         description: "A stylish art hotel in Melbourne's Prahran neighbourhood, close to the Sandbelt courses.",
+        website: "https://all.accor.com/hotel/B3V2/index.en.shtml",
+        images: [
+          "https://www.ahstatic.com/photos/b3v2_ho_00_p_1024x768.jpg",
+          "https://www.ahstatic.com/photos/b3v2_roca2p_00_p_1024x768.jpg",
+          "https://www.ahstatic.com/photos/b3v2_fi_00_p_1024x768.jpg",
+        ],
       },
     ],
     restaurants: [
