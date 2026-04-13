@@ -35,8 +35,37 @@ export async function generateMetadata({ params }: Props) {
   const course = getCourseBySlug(slug);
   if (!course) return {};
   return {
-    title: `${course.name} — Golf Links`,
+    title: `${course.name} — Links Golf Course Guide | LINKSGOLF`,
     description: course.description,
+    keywords: [
+      course.name,
+      `${course.name} green fee`,
+      `${course.name} review`,
+      `${course.name} booking`,
+      `links golf ${course.country}`,
+      `golf courses ${course.region}`,
+      "links golf course",
+    ],
+    openGraph: {
+      title: `${course.name} — Links Golf Course Guide`,
+      description: course.description,
+      type: "website",
+      url: `https://linksgolf.xyz/courses/${course.slug}`,
+      images: [
+        {
+          url: course.heroImage,
+          width: 1200,
+          height: 630,
+          alt: `${course.name} — links golf course in ${course.location}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${course.name} — Links Golf Course Guide`,
+      description: course.description,
+      images: [course.heroImage],
+    },
   };
 }
 
@@ -203,17 +232,21 @@ export default async function CoursePage({ params }: Props) {
               <div>
                 <h2 className="text-xl font-bold text-primary mb-4">Gallery</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {course.images.map((img, i) => (
-                    <div key={i} className="relative h-56 rounded-xl overflow-hidden bg-muted">
-                      <Image
-                        src={img}
-                        alt={`${course.name} view ${i + 1}`}
-                        fill
-                        className="object-cover hover:scale-105 transition-transform duration-500"
-                        unoptimized
-                      />
-                    </div>
-                  ))}
+                  {course.images.map((img, i) => {
+                    const labels = ["fairway", "links hole", "coastal view", "green", "clubhouse", "approach view"];
+                    const label = labels[i % labels.length];
+                    return (
+                      <div key={i} className="relative h-56 rounded-xl overflow-hidden bg-muted">
+                        <Image
+                          src={img}
+                          alt={`${course.name} — ${label}, ${course.location}`}
+                          fill
+                          className="object-cover hover:scale-105 transition-transform duration-500"
+                          unoptimized
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
@@ -282,18 +315,21 @@ export default async function CoursePage({ params }: Props) {
                       {/* Hotel image strip */}
                       {hotel.images && hotel.images.length > 0 && (
                         <div className="grid gap-0.5" style={{ gridTemplateColumns: `repeat(${Math.min(hotel.images.length, 3)}, 1fr)` }}>
-                          {hotel.images.slice(0, 3).map((img, i) => (
-                            <div key={i} className="relative h-40 overflow-hidden">
-                              <Image
-                                src={img}
-                                alt={`${hotel.name} ${i + 1}`}
-                                fill
-                                className="object-cover"
-                                sizes="(max-width: 768px) 33vw, 20vw"
-                                unoptimized
-                              />
-                            </div>
-                          ))}
+                          {hotel.images.slice(0, 3).map((img, i) => {
+                            const hotelLabels = ["exterior", "guest room", "spa & pool"];
+                            return (
+                              <div key={i} className="relative h-40 overflow-hidden">
+                                <Image
+                                  src={img}
+                                  alt={`${hotel.name} — ${hotelLabels[i] ?? "hotel"}, near ${course.name}`}
+                                  fill
+                                  className="object-cover"
+                                  sizes="(max-width: 768px) 33vw, 20vw"
+                                  unoptimized
+                                />
+                              </div>
+                            );
+                          })}
                         </div>
                       )}
                       <div className="p-5">
