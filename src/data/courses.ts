@@ -470,6 +470,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 15,
         pricePerNight: { min: 130, max: 240, currency: "EUR" },
         description: "Charming hotel in the market town of Listowel, with spa facilities. A popular base for Kerry golf trips.",
+        website: "https://www.listowelarms.com",
+        images: [
+          "https://cdn.myguestdiary.com/uploads/1585/__page__hotel_front.jpg?width=1920&height=1080&mode=crop",
+          "https://cdn.myguestdiary.com/uploads/1585/__page__dsc_0317.jpg?width=1920&height=1080&mode=crop",
+          "https://cdn.myguestdiary.com/uploads/1585/_room_header-cosy-double-double-occup.jpg?width=600&height=400&mode=crop",
+        ],
       },
     ],
     restaurants: [
@@ -609,15 +615,26 @@ export const courses: GolfCourse[] = [
         pricePerNight: { min: 280, max: 480, currency: "EUR" },
         description: "An intimate 18th-century manor house hotel above Lahinch Bay. Exceptional food and service.",
         website: "https://www.moyhouse.com",
+        images: [
+          "https://images.squarespace-cdn.com/content/v1/56cc9bbf1bbee05e52dbb2db/1462885208545-66TPUK1VQNNU22B7S5K1/image-asset.jpeg",
+          "https://images.squarespace-cdn.com/content/v1/56cc9bbf1bbee05e52dbb2db/1462885566870-FIXRZ2CK37ND7WWR5KLF/image-asset.jpeg",
+          "https://images.squarespace-cdn.com/content/v1/56cc9bbf1bbee05e52dbb2db/1462885632025-8XULO856CB500ZIHWYEF/image-asset.jpeg",
+        ],
       },
       {
-        name: "The Lahinch Golf Hotel",
+        name: "Lahinch Coast Hotel",
         stars: 4,
         hasWellness: true,
         hasSpa: true,
         distanceKm: 0.1,
         pricePerNight: { min: 150, max: 280, currency: "EUR" },
         description: "Perfectly situated beside the first tee, offering comfortable accommodation with leisure facilities.",
+        website: "https://www.lahinchcoasthotel.ie",
+        images: [
+          "https://www.lahinchcoasthotel.ie/wp-content/uploads/2021/03/Lahinch-Coast-Hotel-_-Lahinch-Golf-Course-Aeriel-View.jpg",
+          "https://www.lahinchcoasthotel.ie/wp-content/uploads/2019/10/LCH_MRH_Suite86.jpg",
+          "https://www.lahinchcoasthotel.ie/wp-content/uploads/2017/11/pool-1.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -979,6 +996,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 1,
         pricePerNight: { min: 90, max: 150, currency: "GBP" },
         description: "A traditional village hotel where Bram Stoker reportedly conceived Dracula. Excellent local food.",
+        website: "https://www.kilmarnockarms.com",
+        images: [
+          "https://www.kilmarnockarms.com/images/stay/stay-header.jpg",
+          "https://www.kilmarnockarms.com/images/stay/bakehouse-double.jpg",
+          "https://www.kilmarnockarms.com/images/history/history-header.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1046,6 +1069,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 8,
         pricePerNight: { min: 130, max: 250, currency: "GBP" },
         description: "Historic hotel in the medieval town of Sandwich, convenient for the links.",
+        website: "https://www.admiralhotels.co.uk/the-bell-hotel-sandwich/",
+        images: [
+          "https://snsites.co.uk/sites/default/files/styles/page_hero/public/2022-04/BELLHOTEL%20Hero_0.jpg?h=56d0ca2e&itok=NPk18Bzp",
+          "https://snsites.co.uk/sites/default/files/2022-04/BELLHOTEL%20Gallery.jpg",
+          "https://snsites.co.uk/sites/default/files/2022-04/BellHote%20Double%20-%20Room%2044.jpg",
+        ],
       },
     ],
     restaurants: [
@@ -1179,14 +1208,19 @@ export const courses: GolfCourse[] = [
     website: "https://www.portmarnockgolfclub.ie",
     hotels: [
       {
-        name: "Portmarnock Hotel & Golf Links",
+        name: "Portmarnock Resort & Jameson Golf Links",
         stars: 4,
         hasWellness: true,
         hasSpa: true,
         distanceKm: 0.5,
         pricePerNight: { min: 180, max: 350, currency: "EUR" },
         description: "A superb seaside hotel adjacent to the links with excellent spa.",
-        website: "https://www.portmarnockhotel.ie",
+        website: "https://www.portmarnockresort.com",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6a/f7/38/sunrise-portmarnock-hotel.jpg?w=900&h=500&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/0b/15/01/caption.jpg?w=900&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ed/5f/ea/portmarnock-hotel-and.jpg?w=900&h=500&s=1",
+        ],
       },
     ],
     restaurants: [
@@ -2292,13 +2326,19 @@ export const courses: GolfCourse[] = [
     website: "https://www.kennemer.nl",
     hotels: [
       {
-        name: "Hotel Faber",
+        name: "NH Zandvoort",
         stars: 4,
-        hasWellness: true,
+        hasWellness: false,
         hasSpa: false,
-        distanceKm: 3,
-        pricePerNight: { min: 130, max: 240, currency: "EUR" },
-        description: "A stylish boutique hotel in Zandvoort, walking distance from the beach and F1 circuit.",
+        distanceKm: 6,
+        pricePerNight: { min: 130, max: 250, currency: "EUR" },
+        description: "A beachfront hotel in Zandvoort, steps from the North Sea and close to the F1 circuit.",
+        website: "https://www.nh-hotels.com/en/hotel/nh-zandvoort",
+        images: [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/00/8c/4a/caption.jpg?w=900&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/9c/f3/nh-zandvoort.jpg?w=900&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/dd/64/8c/nh-zandvoort-restaurant.jpg?w=900&h=500&s=1",
+        ],
       },
     ],
     restaurants: [
@@ -2367,6 +2407,12 @@ export const courses: GolfCourse[] = [
         distanceKm: 5,
         pricePerNight: { min: 90, max: 160, currency: "EUR" },
         description: "Simple, comfortable accommodation on the peninsula for golfers.",
+        website: "https://www.ljgk.se",
+        images: [
+          "https://www.ljgk.se/media/wz1pyemv/ljunghusen_0111_photographer_jacob_sjoman_v1-copy.jpg",
+          "https://www.ljgk.se/media/l1ifbcxh/strandvillan.jpg",
+          "https://www.ljgk.se/media/vimpq1x4/huset.jpg",
+        ],
       },
     ],
     restaurants: [
