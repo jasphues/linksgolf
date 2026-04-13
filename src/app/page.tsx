@@ -68,7 +68,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/finder" className={cn(buttonVariants({ size: "lg" }), "bg-[var(--gold)] hover:bg-[var(--gold)]/90 text-white border-0 text-base px-8")}>
-              Find My Perfect Course
+              Plan My Golf Trip
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <Link href="/courses" className={cn(buttonVariants({ size: "lg", variant: "outline" }), "bg-transparent border-white/40 text-white hover:bg-white/10 hover:text-white hover:border-white/60 text-base px-8")}>
@@ -76,7 +76,7 @@ export default function HomePage() {
             </Link>
           </div>
           <p className="mt-5 text-xs text-white/40 tracking-widest uppercase">
-            ✦ AI-enabled course planning
+            ✦ AI-enabled trip planning
           </p>
         </div>
       </section>
