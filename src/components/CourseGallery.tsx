@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -12,16 +12,59 @@ interface Props {
 const labels = ["fairway", "links hole", "coastal view", "green", "clubhouse", "approach view"];
 
 export function CourseGallery({ images, courseName }: Props) {
+  const [activeIndex, setActiveIndex] = useState(0);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const touchStartX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
 
   const open = (i: number) => setLightboxIndex(i);
   const close = () => setLightboxIndex(null);
+
+  const prevGallery = () => setActiveIndex((i) => (i - 1 + images.length) % images.length);
+  const nextGallery = () => setActiveIndex((i) => (i + 1) % images.length);
+
   const prev = useCallback(() =>
     setLightboxIndex((i) => (i !== null ? (i - 1 + images.length) % images.length : null)), [images.length]);
   const next = useCallback(() =>
     setLightboxIndex((i) => (i !== null ? (i + 1) % images.length : null)), [images.length]);
 
-  // Keyboard navigation
+  // Touch swipe for mobile gallery
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null || touchStartY.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    const dy = e.changedTouches[0].clientY - touchStartY.current;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+      if (dx < 0) nextGallery();
+      else prevGallery();
+    }
+    touchStartX.current = null;
+    touchStartY.current = null;
+  };
+
+  // Lightbox touch swipe
+  const lbTouchStartX = useRef<number | null>(null);
+  const lbTouchStartY = useRef<number | null>(null);
+  const onLbTouchStart = (e: React.TouchEvent) => {
+    lbTouchStartX.current = e.touches[0].clientX;
+    lbTouchStartY.current = e.touches[0].clientY;
+  };
+  const onLbTouchEnd = (e: React.TouchEvent) => {
+    if (lbTouchStartX.current === null || lbTouchStartY.current === null) return;
+    const dx = e.changedTouches[0].clientX - lbTouchStartX.current;
+    const dy = e.changedTouches[0].clientY - lbTouchStartY.current;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+      if (dx < 0) next();
+      else prev();
+    }
+    lbTouchStartX.current = null;
+    lbTouchStartY.current = null;
+  };
+
+  // Keyboard navigation for lightbox
   useEffect(() => {
     if (lightboxIndex === null) return;
     const onKey = (e: KeyboardEvent) => {
@@ -41,13 +84,69 @@ export function CourseGallery({ images, courseName }: Props) {
 
   return (
     <>
-      {/* Gallery — horizontal scroll on mobile, 2-col grid on sm+ */}
-      <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 touch-pan-x sm:grid sm:grid-cols-2 sm:overflow-visible sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden">
+      {/* ── Mobile: single-image carousel with swipe ── */}
+      <div className="sm:hidden">
+        <div
+          className="relative h-56 rounded-xl overflow-hidden bg-muted select-none"
+          onTouchStart={onTouchStart}
+          onTouchEnd={onTouchEnd}
+          onClick={() => open(activeIndex)}
+        >
+          <Image
+            src={images[activeIndex]}
+            alt={`${courseName} — ${labels[activeIndex % labels.length]}`}
+            fill
+            className="object-cover"
+            unoptimized
+          />
+
+          {images.length > 1 && (
+            <>
+              {/* Prev */}
+              <button
+                onClick={(e) => { e.stopPropagation(); prevGallery(); }}
+                aria-label="Previous"
+                className="absolute left-2 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-black/40 text-white"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
+              {/* Next */}
+              <button
+                onClick={(e) => { e.stopPropagation(); nextGallery(); }}
+                aria-label="Next"
+                className="absolute right-2 top-1/2 -translate-y-1/2 z-10 p-1.5 rounded-full bg-black/40 text-white"
+              >
+                <ChevronRight className="h-5 w-5" />
+              </button>
+              {/* Dots */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+                {images.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={(e) => { e.stopPropagation(); setActiveIndex(i); }}
+                    className={`h-1.5 rounded-full transition-all ${i === activeIndex ? "w-4 bg-white" : "w-1.5 bg-white/60"}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+
+          {/* Counter */}
+          {images.length > 1 && (
+            <span className="absolute top-3 right-3 text-xs text-white/80 bg-black/40 rounded-full px-2 py-0.5 tabular-nums">
+              {activeIndex + 1} / {images.length}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* ── Desktop: 2-col grid ── */}
+      <div className="hidden sm:grid sm:grid-cols-2 gap-3">
         {images.map((img, i) => (
           <button
             key={i}
             onClick={() => open(i)}
-            className="relative h-56 rounded-xl overflow-hidden bg-muted shrink-0 w-[82vw] sm:w-auto snap-start cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+            className="relative h-56 rounded-xl overflow-hidden bg-muted cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
           >
             <Image
               src={img}
@@ -60,11 +159,13 @@ export function CourseGallery({ images, courseName }: Props) {
         ))}
       </div>
 
-      {/* Lightbox */}
+      {/* ── Lightbox ── */}
       {lightboxIndex !== null && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/95"
           onClick={close}
+          onTouchStart={onLbTouchStart}
+          onTouchEnd={onLbTouchEnd}
         >
           {/* Close */}
           <button
