@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { CourseGallery } from "@/components/CourseGallery";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -231,23 +232,7 @@ export default async function CoursePage({ params }: Props) {
             {course.images.length > 0 && (
               <div>
                 <h2 className="text-xl font-bold text-primary mb-4">Gallery</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {course.images.map((img, i) => {
-                    const labels = ["fairway", "links hole", "coastal view", "green", "clubhouse", "approach view"];
-                    const label = labels[i % labels.length];
-                    return (
-                      <div key={i} className="relative h-56 rounded-xl overflow-hidden bg-muted">
-                        <Image
-                          src={img}
-                          alt={`${course.name} — ${label}, ${course.location}`}
-                          fill
-                          className="object-cover hover:scale-105 transition-transform duration-500"
-                          unoptimized
-                        />
-                      </div>
-                    );
-                  })}
-                </div>
+                <CourseGallery images={course.images} courseName={course.name} />
               </div>
             )}
 
