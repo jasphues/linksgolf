@@ -42,7 +42,7 @@ export function CourseGallery({ images, courseName }: Props) {
   return (
     <>
       {/* Gallery — horizontal scroll on mobile, 2-col grid on sm+ */}
-      <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 sm:grid sm:grid-cols-2 sm:overflow-visible sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden">
+      <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 touch-pan-x sm:grid sm:grid-cols-2 sm:overflow-visible sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden">
         {images.map((img, i) => (
           <button
             key={i}
