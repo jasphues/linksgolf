@@ -16,11 +16,6 @@ export const metadata: Metadata = {
   description:
     "Discover, compare, and book the world's greatest links golf courses. Expert guides on every course, from Royal County Down to Cabot Cliffs.",
   keywords: ["links golf", "golf courses", "golf travel", "links courses", "golf holidays"],
-  icons: {
-    icon: "/linksgolf.png",
-    shortcut: "/linksgolf.png",
-    apple: "/linksgolf.png",
-  },
   openGraph: {
     title: "LINKSGOLF — The World's Finest Links Courses",
     description: "Discover and compare the world's greatest links golf courses.",
