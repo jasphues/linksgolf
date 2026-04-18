@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     url: "https://linksgolf.xyz",
     images: [
       {
-        url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/99/32/9f/rolling-fairways-high.jpg?w=1400&h=800&s=1",
-        width: 1400,
-        height: 800,
-        alt: "Links golf aerial view",
+        url: "https://linksgolf.xyz/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Royal County Down — the world's finest links course",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LINKSGOLF — The World's Finest Links Courses",
     description: "Discover and compare the world's greatest links golf courses.",
-    images: ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/99/32/9f/rolling-fairways-high.jpg?w=1400&h=800&s=1"],
+    images: ["https://linksgolf.xyz/og-image.jpg"],
   },
 };
 
