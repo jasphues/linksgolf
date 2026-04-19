@@ -3162,9 +3162,13 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/563f24d3eb3d06ab9173184d770772a615923678-3000x2118.jpg",
+      "https://res.cloudinary.com/trump-hotels/image/upload/v1775663548/Turnberry_Golf_Aerial_Lighthouse_Sunset_jte1or.jpg",
+      "https://res.cloudinary.com/trump-hotels/image/upload/v1744402901/Turnberry_Golf_Course_Lighthouse_Sunset_RReglade_2024_ixccag.jpg",
+      "https://res.cloudinary.com/trump-hotels/image/upload/v1744403158/Turnberry_37_gvurwt.jpg",
+      "https://res.cloudinary.com/trump-hotels/image/upload/v1773955082/Winery_Estate_Dining_Couple_RReglade_2025_vdb181.jpg",
+      "https://res.cloudinary.com/trump-hotels/image/upload/v1771529412/Exterior_Horse_Riding_Beach_Trek_1_xjtuhu.JPG",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/563f24d3eb3d06ab9173184d770772a615923678-3000x2118.jpg",
+    heroImage: "https://res.cloudinary.com/trump-hotels/image/upload/v1775663548/Turnberry_Golf_Aerial_Lighthouse_Sunset_jte1or.jpg",
     website: "https://www.trumphotels.com/turnberry",
     hotels: [
       {
@@ -3220,9 +3224,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/12813658d3505a60fedef1f49625208e226a755c-5464x3070.jpg",
+      "https://www.rosapenna.ie/cmsListings/18082/58dd94f0e6d8d.jpg",
+      "https://www.rosapenna.ie/cmsListings/18084/594959dd13452.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d7f6a6daa018.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d81e9a50a67f.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d81e9a520569.jpg",
+      "https://www.rosapenna.ie/cmsImages/spl.green.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/12813658d3505a60fedef1f49625208e226a755c-5464x3070.jpg",
+    heroImage: "https://www.rosapenna.ie/cmsListings/18082/58dd94f0e6d8d.jpg",
     website: "https://www.rosapenna.ie/",
     hotels: [
       {
@@ -3278,9 +3287,16 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/7fb74277f567578bb9d8380c6762c7408c4203ab-2048x1534.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/010_CABOT_HIGHLANDS_Photo_Jacob_Sjoman_62A1762_V1-copy-scaled-1-1920x1280.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/115_CABOT_HIGHLANDS_Photo_Jacob_Sjoman_662A0214_V1-copy-scaled-1-1920x1280.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/196_CABOT_HIGHLANDS_photo_jacob_sjoman_0173_3x2_format-copy-1920x1279.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/644_CABOT_HIGHLANDS_Photo_Jacob_Sjoman_662A1359_3x2_format-copy-scaled-1-1920x1280.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/781_CABOT_HIGHLANDS_photo_jacob_sjoman_662A2053-copy-scaled-1-1920x1280.jpg",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/Cabothighlands_1.png",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/Cabothighlands_10.png",
+      "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/Cabothighlands_12.png",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/7fb74277f567578bb9d8380c6762c7408c4203ab-2048x1534.jpg",
+    heroImage: "https://bpheadlesst560.wpenginepowered.com/wp-content/uploads/2025/11/010_CABOT_HIGHLANDS_Photo_Jacob_Sjoman_62A1762_V1-copy-scaled-1-1920x1280.jpg",
     website: "https://cabothighlands.com/golf/castle-stuart",
     hotels: [
       {
@@ -3336,9 +3352,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/ee15550d87a24d9a048d9e4c6e2c41878a5570ce-1199x900.jpg",
+      "https://www.royalporthcawl.com/wp-content/uploads/2025/02/hole-2-IMG_0013-Edit-1400x934.webp",
+      "https://www.royalporthcawl.com/wp-content/uploads/2025/02/3-hole-7-IMG_4484-554x700.webp",
+      "https://www.royalporthcawl.com/wp-content/uploads/2024/09/clubhouse-2-554x700.webp",
+      "https://www.royalporthcawl.com/wp-content/uploads/2024/09/woods-processedIMG_2387-554x700.webp",
+      "https://www.royalporthcawl.com/wp-content/uploads/2025/08/Gxc8quxWwAAzakX-1400x934.webp",
+      "https://www.royalporthcawl.com/wp-content/uploads/2024/09/GettyImages-2168442519-1-554x585.webp",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/ee15550d87a24d9a048d9e4c6e2c41878a5570ce-1199x900.jpg",
+    heroImage: "https://www.royalporthcawl.com/wp-content/uploads/2025/02/hole-2-IMG_0013-Edit-1400x934.webp",
     website: "https://www.royalporthcawl.com",
     hotels: [
       {
@@ -3451,9 +3472,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/0f515b04becc6ebe2137b0f032d97fa47e1cbb01-1600x1067.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/2dd8945acd50-12thholebalgownie.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/458e5230f84f-18th-hole-and-clubhouse.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/4d2ece2578e6-13th-green.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/43123b5e1551-archiesimpsonlounge.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/593727db0856-golf-rough.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/191/82967175bf00.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/0f515b04becc6ebe2137b0f032d97fa47e1cbb01-1600x1067.jpg",
+    heroImage: "https://clubv1.blob.core.windows.net/clubsite-media/191/2dd8945acd50-12thholebalgownie.jpg",
     website: "https://www.royalaberdeengolf.com",
     hotels: [
       {
@@ -3508,9 +3534,12 @@ export const courses: GolfCourse[] = [
     availability: "difficult",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/c77de165577ac23bdfaf933e2f5c53c90bc78f8c-1920x1280.jpg",
+      "https://www.royalcinqueports.com/wp-content/uploads/2020/11/06th-2020-Royal-Cinque-Ports-Golf-Club-1050.jpg",
+      "https://www.royalcinqueports.com/wp-content/uploads/2021/02/04th-2020-Royal-Cinque-Ports-Golf-Club-1150.jpg",
+      "https://www.royalcinqueports.com/wp-content/uploads/2021/02/16th-2020-Royal-Cinque-Ports-Golf-Club-1205-Edit.jpg",
+      "https://www.royalcinqueports.com/wp-content/uploads/2021/06/16th-2020-Royal-Cinque-Ports-Golf-Club-1240-Edit.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/c77de165577ac23bdfaf933e2f5c53c90bc78f8c-1920x1280.jpg",
+    heroImage: "https://www.royalcinqueports.com/wp-content/uploads/2020/11/06th-2020-Royal-Cinque-Ports-Golf-Club-1050.jpg",
     website: "https://www.royalcinqueports.com",
     hotels: [
       {
@@ -3565,9 +3594,11 @@ export const courses: GolfCourse[] = [
     availability: "very-difficult",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/5e806628dd2a233a1eea52fa82b481f048abea7d-5472x3648.jpg",
+      "https://rye.designmode.intelligentgolf.co.uk/images/thumbs/sites/rye/940x0/1/course-picture.jpg",
+      "https://rye.designmode.intelligentgolf.co.uk/images/thumbs/sites/rye/940x0/1/visitors-picture.jpg",
+      "https://rye.designmode.intelligentgolf.co.uk/images/thumbs/sites/rye/content%20boxes/940x0/1/golfscan_48.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/5e806628dd2a233a1eea52fa82b481f048abea7d-5472x3648.jpg",
+    heroImage: "https://rye.designmode.intelligentgolf.co.uk/images/thumbs/sites/rye/940x0/1/course-picture.jpg",
     website: "https://www.ryegolfclub.co.uk",
     hotels: [
       {
@@ -3622,9 +3653,18 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/67ebf435b832ec9a0295aea85d98e05dccaff7a0-5760x3840.jpg",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/1769288214086-9APPBVFEJTR8HUBK65OX/DJI_20241002182720_0065_D.png",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/0ffd6670-0178-4418-98b2-0a2549d03a30/DJI_20241002183001_0081_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/12f2afbd-e4eb-49d0-ab5f-0b5a669632ae/DJI_20241002075700_0144_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/2023012b-5110-4d8e-8a5e-d2488b4265e8/DJI_20241002183100_0083_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/26232876-4386-479f-aa72-0b62fe813440/DJI_20241002183147_0086_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/5141649b-dc94-452f-9636-12e537fd98c9/DJI_20241002183511_0101_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/6e6f5b8b-dfb5-4ea5-ba27-1a805e12d5bd/DJI_20241002075852_0167_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/7403125f-5d18-49c1-9db4-6bb062304bfb/DJI_20241002075735_0150_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/7688d754-5393-4db5-b2ed-9e94b5b67a7d/DJI_20241002075617_0140_D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/82b6d3ba-b100-49db-b563-360ad7be3f8f/DJI_20241001184636_0043_D.JPG",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/67ebf435b832ec9a0295aea85d98e05dccaff7a0-5760x3840.jpg",
+    heroImage: "https://images.squarespace-cdn.com/content/v1/627fa6903b43106df0be44ed/1769288214086-9APPBVFEJTR8HUBK65OX/DJI_20241002182720_0065_D.png",
     website: "https://www.machgolf.com",
     hotels: [
       {
@@ -3680,9 +3720,18 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/b9adc14d4215dc8bbd48b945f5a56b4469ac9379-5760x3840.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/07/WG7thHole.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/Hole-1.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/Hole-2.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/Hole-3-scaled.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/Hole-5.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/Hole-7-scaled.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/WEST-GAILES-556-1-1.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/WEST-GAILES-630-1.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/WG11thHole.jpg",
+      "https://westerngailes.com/wp-content/uploads/2022/02/WG13thHole.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/b9adc14d4215dc8bbd48b945f5a56b4469ac9379-5760x3840.jpg",
+    heroImage: "https://westerngailes.com/wp-content/uploads/2022/07/WG7thHole.jpg",
     website: "https://www.westerngailes.com",
     hotels: [
       {
@@ -3737,9 +3786,13 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/26ef824a78b2b3fb6e443da1dbbfdf1c8bb6c736-4032x2268.jpg",
+      "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/home-main.jpg",
+      "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/promo-1-1.jpg",
+      "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/promo-2-1.jpg",
+      "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/promo-3-1.jpg",
+      "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/signup-home1.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/26ef824a78b2b3fb6e443da1dbbfdf1c8bb6c736-4032x2268.jpg",
+    heroImage: "https://www.dumbarnielinks.com/wp-content/uploads/sites/8984/2023/07/home-main.jpg",
     website: "https://dumbarnielinks.com/",
     hotels: [
       {
@@ -3795,9 +3848,15 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/f6070bc40f672e7b6f2f673422859dee23ff5976-3000x2250.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/sites/silloth/940x0/1/2012%204th%20hole.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/slideshow/silloth/1500x445/0-0-0-0/1/1_10.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/slideshow/silloth/1500x445/0-0-0-0/1/1_40.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/slideshow/silloth/1500x445/0-0-0-0/1/1_42.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/sites/silloth/Small%20Inner%20Images/940x0/1/small-img3.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/sites/silloth/Small%20Inner%20Images/940x0/1/small-img4.jpg",
+      "https://www.sillothgolfclub.co.uk/images/thumbs/sites/silloth/Small%20Inner%20Images/940x0/1/small-img5.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/f6070bc40f672e7b6f2f673422859dee23ff5976-3000x2250.jpg",
+    heroImage: "https://www.sillothgolfclub.co.uk/images/thumbs/sites/silloth/940x0/1/2012%204th%20hole.jpg",
     website: "https://www.sillothgolfclub.co.uk",
     hotels: [
       {
@@ -3853,9 +3912,16 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["April", "May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/1819e373cae4470377a155874f0b6a16317b6c7f-5336x2998.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/5bbb93147132-4emwuxol.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/81ee6ed03e5f-14thdunes.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/590ca716a790-15thgreen.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/82644ccb5ebb-ch1.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/0289f61109b4-cty-lth-gallery-4.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/d4f966088489-cty-lth-gallery-2.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/8b94dac9217a-302swzok.jpg",
+      "https://clubv1.blob.core.windows.net/clubsite-media/4625/c953732d1ecb-eoit.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/1819e373cae4470377a155874f0b6a16317b6c7f-5336x2998.jpg",
+    heroImage: "https://clubv1.blob.core.windows.net/clubsite-media/4625/5bbb93147132-4emwuxol.jpg",
     website: "https://www.countylouthgolfclub.com",
     hotels: [
       {
@@ -3910,9 +3976,15 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/53336ce112545e9359317a332560b78bae58e0e4-5216x3906.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-7-DJI_0964-2200x1600.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-10-DJI_0925-2200x1600.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-2-Beyond-hillside-2nd-DJI_0127-Edit-2200x1600.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-4-DSC06148.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-4-DJI_0355-1200x1200.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-10-Beyond-hillside-10th-DJI_0350-Pano-1200x1200.jpg",
+      "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/02/featured-hole-2-DJI_0934-554x700.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/53336ce112545e9359317a332560b78bae58e0e4-5216x3906.jpg",
+    heroImage: "https://www.hillside-golfclub.co.uk/wp-content/uploads/2023/03/hole-7-DJI_0964-2200x1600.jpg",
     website: "https://www.hillside-golfclub.co.uk",
     hotels: [
       {
@@ -3968,9 +4040,16 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/d8f7752bc06ec74b53c697b33b86ff6963b07047-9306x6175.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/07/sharp-Formby-8th-DJI_0253-HDR-Edit-1840x1200.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-11th-DJI_0714-HDR-1-700x900.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-1st-DJI_0883-HDR-Edit-640x420.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-12th-DJI_0675-Pano-Edit-640x420.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-13th-DJI_0853-640x420.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-14th-DJI_0866-HDR-640x420.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/06/Formby-18th-clubhouse-DJI_0939-HDR-Edit-1200x1200.jpg",
+      "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/07/sharp-Formby-9th-DJI_0900-HDR-Edit-1200x1200.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/d8f7752bc06ec74b53c697b33b86ff6963b07047-9306x6175.jpg",
+    heroImage: "https://www.formbygolfclub.co.uk/wp-content/uploads/2023/07/sharp-Formby-8th-DJI_0253-HDR-Edit-1840x1200.jpg",
     website: "https://www.formbygolfclub.co.uk",
     hotels: [
       {
@@ -4085,9 +4164,10 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/db8bb238461f02e5a67ebe26140fafed709e93d7-5272x2962.jpg",
+      "https://another.place/img/og_machrie.jpg",
+      "https://another.place/storage/rSg6ssxTSlSUVfEoCD3K4rshIxS2UulXeJgdu82k.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/db8bb238461f02e5a67ebe26140fafed709e93d7-5272x2962.jpg",
+    heroImage: "https://another.place/img/og_machrie.jpg",
     website: "https://another.place/the-machrie",
     hotels: [
       {
@@ -4143,9 +4223,16 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/af648f130daca28972537767d49ea073296bd057-5760x3840.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2023/08/17th-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2023/08/2nd-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2023/08/7th-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2023/08/8th-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2023/08/9th-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2024/11/13th-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2024/11/WILLSCOTT-GULLANEGOLFCLUB-138-1st-Hole-No-1.jpg",
+      "https://gullanegolfclub.com/wp-content/uploads/2024/11/GGC-Home-Page-Linksland.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/af648f130daca28972537767d49ea073296bd057-5760x3840.jpg",
+    heroImage: "https://gullanegolfclub.com/wp-content/uploads/2023/08/17th-No-1.jpg",
     website: "https://gullanegolfclub.com/gullane-no-1/",
     hotels: [
       {
@@ -4201,9 +4288,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/523c8df55eeb5817b06e54d45e66c7dcb7b7e3ce-5000x3337.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2023/04/championship-10th-banner-2.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2023/06/Header-Homepage-28-1024x512.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2023/06/course-signs--1024x682.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2025/09/Championship-Course-placeholder-2.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2025/09/Channel-Course-placeholder.jpg",
+      "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2026/03/burnham-homepage-quotes.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/523c8df55eeb5817b06e54d45e66c7dcb7b7e3ce-5000x3337.jpg",
+    heroImage: "https://www.burnhamandberrowgolfclub.co.uk/wp-content/uploads/2023/04/championship-10th-banner-2.jpg",
     website: "https://www.burnhamandberrowgolfclub.co.uk",
     hotels: [
       {
@@ -4259,9 +4351,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/bb680ba4eea6580aa3f9563cca81fdc99f829caf-5472x3078.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d7f6a6daa018.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d81e9a50a67f.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/5d81e9a520569.jpg",
+      "https://www.rosapenna.ie/cmsListings/18105/633430739df1d.jpg",
+      "https://www.rosapenna.ie/cmsListings/87948/652c33cc3840e.jpg",
+      "https://www.rosapenna.ie/cmsImages/shl.website.2.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/bb680ba4eea6580aa3f9563cca81fdc99f829caf-5472x3078.jpg",
+    heroImage: "https://www.rosapenna.ie/cmsListings/18105/5d7f6a6daa018.jpg",
     website: "https://www.rosapenna.ie",
     hotels: [
       {
@@ -4317,9 +4414,11 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/3ee084d5e8931c8a868a8f77e4745068f85e42b2-5339x3368.jpg",
+      "https://hunstantongolfclub.com/uploads/image/championship-venue.jpg",
+      "https://hunstantongolfclub.com/uploads/image/hunstanton-golf-club.jpg",
+      "https://hunstantongolfclub.com//theme/hunstanton/images/video-posters/home-intro.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/3ee084d5e8931c8a868a8f77e4745068f85e42b2-5339x3368.jpg",
+    heroImage: "https://hunstantongolfclub.com/uploads/image/championship-venue.jpg",
     website: "https://www.hunstantongolfclub.com",
     hotels: [
       {
@@ -4375,9 +4474,10 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["April", "May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/659bbc8ea517c86d756093b9dfd075ed8b2d7044-5472x3078.jpg",
+      "https://enniscronegolf.com/wp-content/uploads/2023/04/Enniscrone36-scaled.jpg",
+      "https://enniscronegolf.com/wp-content/uploads/2023/04/Enniscrone36-2048x1365.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/659bbc8ea517c86d756093b9dfd075ed8b2d7044-5472x3078.jpg",
+    heroImage: "https://enniscronegolf.com/wp-content/uploads/2023/04/Enniscrone36-scaled.jpg",
     website: "https://www.enniscronegolf.com",
     hotels: [
       {
@@ -4432,9 +4532,10 @@ export const courses: GolfCourse[] = [
     availability: "very-difficult",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/341144004c6ed4238a09ec5b160506e865c5c68f-1500x1001.jpg",
+      "https://www.carnegieclub.co.uk/resources/images/public/16x9/16-9---800px-x-450px7.jpg",
+      "https://www.carnegieclub.co.uk/resources/images/public/6x4/castle-home-2.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/341144004c6ed4238a09ec5b160506e865c5c68f-1500x1001.jpg",
+    heroImage: "https://www.carnegieclub.co.uk/resources/images/public/16x9/16-9---800px-x-450px7.jpg",
     website: "https://www.carnegieclub.co.uk/golf-championship-links.html",
     hotels: [
       {
@@ -4549,9 +4650,12 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/81752f3c56d45bb769d05c490173aeed3dde4a27-2400x1348.jpg",
+      "https://www.portstewartgc.co.uk/wp-content/uploads/sites/9498/2024/11/pgc2.jpg",
+      "https://www.portstewartgc.co.uk/wp-content/uploads/sites/9498/2025/01/Old-1.jpg",
+      "https://www.portstewartgc.co.uk/wp-content/uploads/sites/9498/2025/01/Banner_RiversideCourse_8ce2f9.jpg",
+      "https://www.portstewartgc.co.uk/wp-content/uploads/sites/9498/2025/01/Environment-1.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/81752f3c56d45bb769d05c490173aeed3dde4a27-2400x1348.jpg",
+    heroImage: "https://www.portstewartgc.co.uk/wp-content/uploads/sites/9498/2024/11/pgc2.jpg",
     website: "https://www.portstewartgc.co.uk",
     hotels: [
       {
@@ -4606,9 +4710,14 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["April", "May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/0a30714e88b66822fcbf6372dd11ff516a602ead-5361x2998.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2021/03/26-112120.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2021/03/30-112120.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2021/03/Slieve-League_master.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2021/04/Scenic-View-7.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2021/06/S29.jpg",
+      "https://narinandportnoolinks.com/wp-content/uploads/2025/12/NP-Homepage_Dine-image.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/0a30714e88b66822fcbf6372dd11ff516a602ead-5361x2998.jpg",
+    heroImage: "https://narinandportnoolinks.com/wp-content/uploads/2021/03/26-112120.jpg",
     website: "https://www.narinandportnoolinks.com/",
     hotels: [
       {
@@ -4664,9 +4773,13 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/7c25bba5d1a6fa0de7294b62d4b98667f76ed356-1199x900.jpg",
+      "https://www.pennardgolfclub.com/wp-content/uploads/2023/01/hole-7-IMG_2638-Edit-1400x933.jpg",
+      "https://www.pennardgolfclub.com/wp-content/uploads/2023/01/hole-6-IMG_2479-Edit-554x700.jpg",
+      "https://www.pennardgolfclub.com/wp-content/uploads/2023/01/IMG_2663-Edit-554x700.jpg",
+      "https://www.pennardgolfclub.com/wp-content/uploads/2022/09/gc2-IMG_1160-554x700.jpg",
+      "https://www.pennardgolfclub.com/wp-content/uploads/2023/01/hole-7c-554x700.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/7c25bba5d1a6fa0de7294b62d4b98667f76ed356-1199x900.jpg",
+    heroImage: "https://www.pennardgolfclub.com/wp-content/uploads/2023/01/hole-7-IMG_2638-Edit-1400x933.jpg",
     website: "https://www.pennardgolfclub.com",
     hotels: [
       {
@@ -4721,9 +4834,14 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/fbda8b281b0f7b07e32fa3e1088351fbdad50f7b-1199x900.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/10/cropped-hole-10-IMG_8454-Edit-copy-1400x750.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/09/course-card-1400x964.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/09/hole-10-IMG_8345-Edit-550x550.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/09/hole-10-IMG_8454-Edit-copy-550x550.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/09/hole-18-IMG_8262-Edit-550x550.jpg",
+      "https://www.royalstdavids.co.uk/wp-content/uploads/2021/09/cropped-2-hole-15-IMG_8463-Edit-copy-550x550.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/fbda8b281b0f7b07e32fa3e1088351fbdad50f7b-1199x900.jpg",
+    heroImage: "https://www.royalstdavids.co.uk/wp-content/uploads/2021/10/cropped-hole-10-IMG_8454-Edit-copy-1400x750.jpg",
     website: "https://www.royalstdavids.co.uk",
     hotels: [
       {
@@ -4778,9 +4896,15 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/9a6a38dcd5a42a586ceef11a53dd083c0dceea93-1199x900.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2025/01/dji_fly_20241223_010616_0164_1735809825195_photo-3-compressed-2-1400x1049.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/09/dji_fly_20240916_074244_0030_1726469278434_photo-compressed-1400x1050.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/09/dji_fly_20240916_072422_0016_1726468306888_photo-compressed-1200x1200.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/09/dji_fly_20240908_204050_0148_1726681935511_photo-compressed-1200x1200.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/07/FD7E05AA-5EBF-4C34-9C97-E97FB971E3D4-554x700.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/07/IMG_0372-554x700.jpg",
+      "https://www.aberdoveygolf.co.uk/wp-content/uploads/2024/07/332C7C6A-11E6-456E-95AE-60CACB1CBA35-554x700.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/9a6a38dcd5a42a586ceef11a53dd083c0dceea93-1199x900.jpg",
+    heroImage: "https://www.aberdoveygolf.co.uk/wp-content/uploads/2025/01/dji_fly_20241223_010616_0164_1735809825195_photo-3-compressed-2-1400x1049.jpg",
     website: "https://www.aberdoveygolf.co.uk",
     hotels: [
       {
@@ -4835,9 +4959,14 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/4c11da5ecb9fe17f33dd46e8cec8095146ddddcc-7295x3686.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2022/11/DJI_0779-1.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2022/11/golfer1-1400x888.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2022/11/RAY_5167-scaled.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2023/02/hero-3_V6A3827-554x700.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2023/03/3-2-DJI_0533.jpg",
+      "https://www.westlancashiregolf.co.uk/wp-content/uploads/2022/11/RAY_0135-1-scaled.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/4c11da5ecb9fe17f33dd46e8cec8095146ddddcc-7295x3686.jpg",
+    heroImage: "https://www.westlancashiregolf.co.uk/wp-content/uploads/2022/11/DJI_0779-1.jpg",
     website: "https://www.westlancashiregolf.co.uk",
     hotels: [
       {
@@ -4892,9 +5021,15 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/0d9f629e4be0b9b010a07ebf55e04eca2e6d915b-1600x1066.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3346/Dunes-05th-Hole-Princes-Golf-Club-1059-Edit.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3345/AlexaKellyPhotography46.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3227/AlexaKellyPhotography92.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3962/PGC-28.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3965/PGC-55.jpg",
+      "https://www.princesgolfclub.co.uk/storage/3130/play-01.jpg",
+      "https://www.princesgolfclub.co.uk/storage/2975/play-green-fees.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/0d9f629e4be0b9b010a07ebf55e04eca2e6d915b-1600x1066.jpg",
+    heroImage: "https://www.princesgolfclub.co.uk/storage/3346/Dunes-05th-Hole-Princes-Golf-Club-1059-Edit.jpg",
     website: "https://www.princesgolfclub.co.uk",
     hotels: [
       {
@@ -4950,9 +5085,11 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/2a34ae3d7d094add29537e0ec0aef64fda24f0ae-1620x1080.jpg",
+      "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/07/winning-championship_golf_course.jpg?lossy=1&strip=1&webp=1",
+      "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/09/17th-tee.jpg?lossy=1&strip=1&webp=1",
+      "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/09/Bradda-Head-Isle-of-Man.jpg?lossy=1&strip=1&webp=1",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/2a34ae3d7d094add29537e0ec0aef64fda24f0ae-1620x1080.jpg",
+    heroImage: "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/07/winning-championship_golf_course.jpg?lossy=1&strip=1&webp=1",
     website: "https://www.castletowngolflinks.com",
     hotels: [
       {
@@ -5008,9 +5145,15 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/b191e42243421a7a50263507694b1e4afec4acfb-4024x3805.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-4th-DJI_0523-Edit-1500x800.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-5th-DJI_0028-HDR-1500x800.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-5th-DJI_0534-HDR-1500x800.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-6th-DJI_0529-Edit-1500x800.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-10th-tee-DJI_0264-HDR-Edit-554x700.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/cropped-SA-5th-AR501087-Pano-1600x636.jpg",
+      "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/cropped-SA-3rd-DJI_0434-HDR-1195x1400.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/b191e42243421a7a50263507694b1e4afec4acfb-4024x3805.jpg",
+    heroImage: "https://www.sandagolfclub.co.uk/wp-content/uploads/2023/07/SA-4th-DJI_0523-Edit-1500x800.jpg",
     website: "https://www.sandagolfclub.co.uk",
     hotels: [
       {
@@ -5065,9 +5208,11 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/9211cb5bac369cef2f0e0d9ab98256447b7ba0b7-2048x1534.jpg",
+      "https://wallaseygolfclub.com/wp-content/uploads/2023/10/DSC02549.jpg",
+      "https://wallaseygolfclub.com/wp-content/uploads/2023/10/DSC02667-1200x800.webp",
+      "https://wallaseygolfclub.com/wp-content/uploads/2023/10/1.webp",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/9211cb5bac369cef2f0e0d9ab98256447b7ba0b7-2048x1534.jpg",
+    heroImage: "https://wallaseygolfclub.com/wp-content/uploads/2023/10/DSC02549.jpg",
     website: "https://www.wallaseygolfclub.com",
     hotels: [
       {
@@ -5123,9 +5268,13 @@ export const courses: GolfCourse[] = [
     availability: "moderate",
     bestMonths: ["April", "May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/0f66417455581f6a24365c3f5ce7d68e0e973679-5464x3640.jpg",
+      "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/1500x600/0-0-0-0/1/2_3.jpg",
+      "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/1500x600/0-0-0-0/1/2_4.jpg",
+      "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/2003x1479/3-0-177-380/1/1_59.jpg",
+      "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/2034x1502/34-0-88-492/1/1_60.jpg",
+      "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/2080x1557/80-0-56-579/1/1_61.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/0f66417455581f6a24365c3f5ce7d68e0e973679-5464x3640.jpg",
+    heroImage: "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/1500x600/0-0-0-0/1/2_3.jpg",
     website: "https://www.theroyaldublingolfclub.com",
     hotels: [
       {
@@ -5297,9 +5446,16 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/bb1b131d7a11e0aab9ba00bfdd0df3f229ef5c3f-5326x2996.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/4thddf.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/7thglashedyat.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/ballyliffin2018-137-orig_1.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/ballyliffin2018-2-orig_1.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/ballyliffin2018-22-orig_1.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/ballyliffin2018-29-orig_1.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/ballyliffin2018-61-orig_1.jpg",
+      "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/rory4th.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/bb1b131d7a11e0aab9ba00bfdd0df3f229ef5c3f-5326x2996.jpg",
+    heroImage: "https://www.ballyliffingolfclub.com/uploads/1/3/2/4/132403320/4thddf.jpg",
     website: "https://www.ballyliffingolfclub.com",
     hotels: [
       {
@@ -5355,9 +5511,16 @@ export const courses: GolfCourse[] = [
     availability: "easy",
     bestMonths: ["May", "June", "July", "August", "September"],
     images: [
-      "https://cdn.sanity.io/images/03mhssoh/production/33272452b8180c50d02e9f2fc76258997ad18835-1200x800.jpg",
+      "https://dundonaldlinks.com/app/uploads/2021/08/dundonald-1-2048x1365.jpg",
+      "https://dundonaldlinks.com/app/uploads/2020/05/Dundonald-11th-1661-web-1-1024x683.jpg",
+      "https://dundonaldlinks.com/app/uploads/2020/05/Dundonald-13th-1812-web-1024x683.jpg",
+      "https://dundonaldlinks.com/app/uploads/2021/11/GJ_L2375-copy-2-1024x683.jpg",
+      "https://dundonaldlinks.com/app/uploads/2021/11/GJ_L2385-copy-2-2048x1365.jpg",
+      "https://dundonaldlinks.com/app/uploads/2021/11/GJ_L2438-copy-2-2048x1365.jpg",
+      "https://dundonaldlinks.com/app/uploads/2021/12/GJ_L8541.jpg",
+      "https://dundonaldlinks.com/app/uploads/2020/05/Dundonald-10th-1664-web-1024x683.jpg",
     ],
-    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/33272452b8180c50d02e9f2fc76258997ad18835-1200x800.jpg",
+    heroImage: "https://dundonaldlinks.com/app/uploads/2021/08/dundonald-1-2048x1365.jpg",
     website: "https://www.dundonaldlinks.com",
     hotels: [
       {
