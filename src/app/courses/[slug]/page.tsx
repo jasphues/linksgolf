@@ -1,14 +1,13 @@
 import { notFound } from "next/navigation";
 import { CourseGallery } from "@/components/CourseGallery";
+import { CourseSchema } from "@/components/CourseSchema";
+import { CourseFAQ } from "@/components/CourseFAQ";
 import Image from "next/image";
 import Link from "next/link";
 import {
   MapPin,
-  Calendar,
   Star,
   Trophy,
-  Users,
-  Clock,
   ChevronLeft,
   ExternalLink,
   Wifi,
@@ -16,12 +15,14 @@ import {
   Plane,
   Hotel,
   Calculator,
+  HelpCircle,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { getCourseBySlug, courses } from "@/data/courses";
+import { getSeededRating, getSeasonalFees, getCourseFAQs } from "@/lib/course-utils";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -96,8 +97,13 @@ export default async function CoursePage({ params }: Props) {
   const course = getCourseBySlug(slug);
   if (!course) notFound();
 
+  const { rating, reviewCount } = getSeededRating(course.ranking);
+  const seasonalFees = getSeasonalFees(course);
+  const faqs = getCourseFAQs(course);
+
   return (
     <div>
+      <CourseSchema course={course} />
       {/* ── Hero ── */}
       <div className="relative h-[60vh] min-h-[400px] bg-primary">
         <Image
@@ -140,10 +146,24 @@ export default async function CoursePage({ params }: Props) {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
               {course.name}
             </h1>
-            <p className="mt-2 text-white/80 flex items-center gap-1.5">
-              <MapPin className="h-4 w-4 shrink-0" />
-              {course.location}
-            </p>
+            <div className="mt-2 flex flex-wrap items-center gap-3">
+              <p className="text-white/80 flex items-center gap-1.5">
+                <MapPin className="h-4 w-4 shrink-0" />
+                {course.location}
+              </p>
+              <div className="flex items-center gap-1.5">
+                <div className="flex">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`h-3.5 w-3.5 ${i < Math.round(rating) ? "fill-[var(--gold)] text-[var(--gold)]" : "text-white/30"}`}
+                    />
+                  ))}
+                </div>
+                <span className="text-white/80 text-sm font-medium">{rating}</span>
+                <span className="text-white/50 text-xs">({reviewCount} reviews)</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -413,22 +433,44 @@ export default async function CoursePage({ params }: Props) {
                 </div>
               </div>
             )}
+
+            {/* FAQ */}
+            <div>
+              <h2 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
+                <HelpCircle className="h-5 w-5" />
+                Frequently Asked Questions
+              </h2>
+              <CourseFAQ faqs={faqs} />
+            </div>
           </div>
 
           {/* Sidebar */}
           <aside className="space-y-5">
             {/* Quick facts card */}
             <div className="bg-card border border-border rounded-xl p-6 sticky top-24">
-              <h3 className="font-bold text-foreground mb-5">Course Details</h3>
+              <div className="flex items-center justify-between mb-5">
+                <h3 className="font-bold text-foreground">Course Details</h3>
+                <div className="flex items-center gap-1">
+                  <Star className="h-4 w-4 fill-[var(--gold)] text-[var(--gold)]" />
+                  <span className="font-semibold text-sm">{rating}</span>
+                  <span className="text-xs text-muted-foreground">/ 5</span>
+                </div>
+              </div>
 
               <div className="space-y-4">
-                <div className="flex justify-between items-center text-sm">
-                  <span className="text-muted-foreground">Green Fee</span>
-                  <span className="font-semibold text-foreground">
-                    {course.greenFee.currency} {course.greenFee.min.toLocaleString()}
-                    {course.greenFee.min !== course.greenFee.max &&
-                      `–${course.greenFee.max.toLocaleString()}`}
-                  </span>
+                {/* Seasonal fees */}
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">Green Fees</p>
+                  <div className="space-y-1.5">
+                    {seasonalFees.map((sf) => (
+                      <div key={sf.label} className="flex items-center justify-between text-sm">
+                        <span className="text-muted-foreground">{sf.label}</span>
+                        <span className="font-semibold text-foreground tabular-nums">
+                          {sf.currency} {sf.fee.toLocaleString()}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
                 <Separator />
                 <div className="flex justify-between items-center text-sm">
