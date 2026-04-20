@@ -18,11 +18,6 @@ export default function ImpressumPage() {
         </Link>
       </div>
 
-      {/* Draft notice */}
-      <div className="mb-10 rounded-lg border border-amber-300 bg-amber-50 px-6 py-4 text-sm text-amber-800">
-        <strong>Hinweis:</strong> Diese Seite befindet sich noch im Aufbau. Die Angaben werden zeitnah vervollständigt.
-      </div>
-
       <h1 className="text-4xl font-bold tracking-tight mb-2">Impressum</h1>
       <p className="text-muted-foreground mb-12">Angaben gemäß § 5 TMG</p>
 
@@ -32,7 +27,7 @@ export default function ImpressumPage() {
         <div>
           <h2 className="text-lg font-semibold mb-3">Verantwortlicher</h2>
           <p className="text-muted-foreground">
-            Jasper Huesgen<br />
+            J Huesgen<br />
             Albrechtstr. 19<br />
             10117 Berlin<br />
             Deutschland
@@ -43,7 +38,7 @@ export default function ImpressumPage() {
         <div>
           <h2 className="text-lg font-semibold mb-3">Kontakt</h2>
           <p className="text-muted-foreground">
-            E-Mail: <a href="mailto:jh@futurebens.co" className="underline hover:text-foreground">jh@futurebens.co</a>
+            E-Mail: <a href="mailto:hi@linksgolf.xyz" className="underline hover:text-foreground">hi@linksgolf.xyz</a>
           </p>
         </div>
 

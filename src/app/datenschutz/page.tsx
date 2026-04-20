@@ -30,7 +30,7 @@ export default function DatenschutzPage() {
             Jasper Huesgen<br />
             Albrechtstr. 19<br />
             10117 Berlin<br />
-            E-Mail: <a href="mailto:jh@futurebens.co" className="underline hover:text-foreground">jh@futurebens.co</a>
+            E-Mail: <a href="mailto:hi@linksgolf.xyz" className="underline hover:text-foreground">hi@linksgolf.xyz</a>
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export default function DatenschutzPage() {
           </ul>
           <p className="text-muted-foreground mt-3">
             Für Anfragen zu Ihren Datenschutzrechten wenden Sie sich bitte an:{" "}
-            <a href="mailto:jh@futurebens.co" className="underline hover:text-foreground">jh@futurebens.co</a>
+            <a href="mailto:hi@linksgolf.xyz" className="underline hover:text-foreground">hi@linksgolf.xyz</a>
           </p>
         </div>
 
