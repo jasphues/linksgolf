@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import { CookieSettingsLink } from "@/components/CookieConsent";
 
 const footerLinks = {
   Courses: [
@@ -71,7 +72,15 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/50">
           <p>&copy; {new Date().getFullYear()} LINKSGOLF. All rights reserved.</p>
-          <p>linksgolf.xyz</p>
+          <div className="flex items-center gap-4">
+            <Link href="/impressum" className="hover:text-primary-foreground transition-colors">
+              Impressum
+            </Link>
+            <Link href="/datenschutz" className="hover:text-primary-foreground transition-colors">
+              Datenschutz
+            </Link>
+            <CookieSettingsLink />
+          </div>
         </div>
       </div>
     </footer>
