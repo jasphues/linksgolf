@@ -2334,7 +2334,7 @@ export const courses: GolfCourse[] = [
       "https://golfclubatlas.com/wp-content/uploads/2016/03/DJI_20260228025052_0352_D-2-1024x576.jpg",
       "https://golfclubatlas.com/wp-content/uploads/2008/12/DJI_20260303034049_0753_D-1024x576.avif",
     ],
-    heroImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4a/4a/7f/kennemer-golf-country.jpg?w=1200&h=700&s=1",
+    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/70bf0adbfc1b18409bcbcf0792adb33534c9fe6b-8192x5461.jpg",
     website: "https://www.kennemer.nl",
     hotels: [
       {
@@ -3179,7 +3179,7 @@ export const courses: GolfCourse[] = [
       "https://www.rosapenna.ie/cmsListings/18105/5d81e9a520569.jpg",
       "https://www.rosapenna.ie/cmsImages/spl.green.jpg",
     ],
-    heroImage: "https://www.rosapenna.ie/cmsListings/18082/58dd94f0e6d8d.jpg",
+    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/12813658d3505a60fedef1f49625208e226a755c-5464x3070.jpg",
     website: "https://www.rosapenna.ie/",
     hotels: [
       {
@@ -4189,7 +4189,7 @@ export const courses: GolfCourse[] = [
       "https://www.rosapenna.ie/cmsListings/87948/652c33cc3840e.jpg",
       "https://www.rosapenna.ie/cmsImages/shl.website.2.jpg",
     ],
-    heroImage: "https://www.rosapenna.ie/cmsListings/18105/5d7f6a6daa018.jpg",
+    heroImage: "https://www.rosapenna.ie/cmsGallery/imagerow/10047/resized/1600x800/rosapenna_5b_sandyhills_1.jpg",
     website: "https://www.rosapenna.ie",
     hotels: [
       {
@@ -4249,7 +4249,7 @@ export const courses: GolfCourse[] = [
       "https://hunstantongolfclub.com/uploads/image/hunstanton-golf-club.jpg",
       "https://hunstantongolfclub.com//theme/hunstanton/images/video-posters/home-intro.jpg",
     ],
-    heroImage: "https://hunstantongolfclub.com/uploads/image/championship-venue.jpg",
+    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/3ee084d5e8931c8a868a8f77e4745068f85e42b2-5339x3368.jpg",
     website: "https://www.hunstantongolfclub.com",
     hotels: [
       {
@@ -4366,7 +4366,7 @@ export const courses: GolfCourse[] = [
       "https://www.carnegieclub.co.uk/resources/images/public/16x9/16-9---800px-x-450px7.jpg",
       "https://www.carnegieclub.co.uk/resources/images/public/6x4/castle-home-2.jpg",
     ],
-    heroImage: "https://www.carnegieclub.co.uk/resources/images/public/16x9/16-9---800px-x-450px7.jpg",
+    heroImage: "https://www.carnegieclub.co.uk/assets/components/phpthumbof/cache/golf-new-2.951fd9822a1e20af74374eeeda001e1b1964.jpg",
     website: "https://www.carnegieclub.co.uk/golf-championship-links.html",
     hotels: [
       {
@@ -4862,7 +4862,7 @@ export const courses: GolfCourse[] = [
       "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/09/17th-tee.jpg?lossy=1&strip=1&webp=1",
       "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/09/Bradda-Head-Isle-of-Man.jpg?lossy=1&strip=1&webp=1",
     ],
-    heroImage: "https://b1944488.smushcdn.com/1944488/wp-content/uploads/2020/07/winning-championship_golf_course.jpg?lossy=1&strip=1&webp=1",
+    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/51bc79da944b87bbe77cf81068d6fb7a13e18c29-2451x1080.jpg",
     website: "https://www.castletowngolflinks.com",
     hotels: [
       {
@@ -4985,7 +4985,7 @@ export const courses: GolfCourse[] = [
       "https://wallaseygolfclub.com/wp-content/uploads/2023/10/DSC02667-1200x800.webp",
       "https://wallaseygolfclub.com/wp-content/uploads/2023/10/1.webp",
     ],
-    heroImage: "https://wallaseygolfclub.com/wp-content/uploads/2023/10/DSC02549.jpg",
+    heroImage: "https://wallaseygolfclub.com/wp-content/uploads/2024/06/xDJI_20240413195332_0191_D.jpg.pagespeed.ic.IleT5MinIu.jpg",
     website: "https://www.wallaseygolfclub.com",
     hotels: [
       {
@@ -5047,7 +5047,7 @@ export const courses: GolfCourse[] = [
       "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/2034x1502/34-0-88-492/1/1_60.jpg",
       "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/2080x1557/80-0-56-579/1/1_61.jpg",
     ],
-    heroImage: "https://www.theroyaldublingolfclub.com/images/thumbs/slideshow/royaldublin/1500x600/0-0-0-0/1/2_3.jpg",
+    heroImage: "https://www.theroyaldublingolfclub.com/images/thumbs/sites/royaldublin/Inner%20Page%20Images/2000x0/1/Aerial%20Clubhouse%20Inner.jpg",
     website: "https://www.theroyaldublingolfclub.com",
     hotels: [
       {
@@ -5414,7 +5414,7 @@ export const courses: GolfCourse[] = [
       "https://www.dooks.com/wp-content/uploads/2019/08/course-info-box.jpg",
       "https://www.dooks.com/wp-content/uploads/2019/08/visitors-info-box.jpg",
     ],
-    heroImage: "https://www.dooks.com/wp-content/uploads/2022/02/dooksapril121-1-1536x863.jpg",
+    heroImage: "https://www.dooks.com/wp-content/uploads/2019/07/DOOKSGC-aerial-7.jpg",
     website: "https://www.dooks.com",
     hotels: [
       {
@@ -5538,7 +5538,7 @@ export const courses: GolfCourse[] = [
       "https://golfdesperone.com/uploads/dscf5717_vsco.jpeg",
       "https://golfdesperone.com/uploads/dscf5743_vsco.jpeg",
     ],
-    heroImage: "https://golfdesperone.com/uploads/6061c1eb1ac2af86b0e637934266385c_20241024T08231158.jpg",
+    heroImage: "https://www.golfdesperone.com/uploads/sperone_150____stef_bravin_20241023T14480151.jpg",
     website: "https://golfdesperone.com",
     hotels: [
       {
@@ -5843,7 +5843,7 @@ export const courses: GolfCourse[] = [
       "https://golfetretat.com/wp-content/uploads/2023/06/img-golfetretat-14.jpg",
       "https://golfetretat.com/wp-content/uploads/2023/06/img-golfetretat-15.jpg",
     ],
-    heroImage: "https://golfetretat.com/wp-content/uploads/2023/06/img-golfetretat-13.jpg",
+    heroImage: "https://cdn.sanity.io/images/03mhssoh/production/101ad03554c365285561ae9c38116a7d7a6f2047-8256x5504.jpg",
     website: "https://golfetretat.com",
     hotels: [
       {
@@ -6024,7 +6024,7 @@ export const courses: GolfCourse[] = [
       "https://royalnorthdevon.designmode.intelligentgolf.co.uk/images/thumbs/sites/royalnorthdevon/Redesign%202025/940x0/1/home-six.jpg",
       "https://royalnorthdevon.designmode.intelligentgolf.co.uk/images/thumbs/sites/royalnorthdevon/Redesign%202025/940x0/1/home-visitors.jpg",
     ],
-    heroImage: "https://royalnorthdevon.designmode.intelligentgolf.co.uk/images/thumbs/sites/royalnorthdevon/Redesign%202025/2000x0/1/inner-full.jpg",
+    heroImage: "https://royalnorthdevon.designmode.intelligentgolf.co.uk/images/thumbs/slideshow/royalnorthdevon/2000x697/0-0-17-180/1/71_646.jpg",
     website: "https://www.royalnorthdevongolfclub.co.uk",
     hotels: [
       {
@@ -6385,7 +6385,7 @@ export const courses: GolfCourse[] = [
       "https://www.costanavarino.com/wp-content/uploads/2017/05/dunes_hole_17.jpg",
       "https://www.costanavarino.com/wp-content/uploads/2017/05/dunes_hole_18.jpg",
     ],
-    heroImage: "https://www.costanavarino.com/wp-content/uploads/2017/05/dunes_hole_10.jpg",
+    heroImage: "https://cdn.allsquaregolf.com/pictures/pictures/001/353/982/large/picture.jpg",
     website: "https://www.costanavarino.com/golf",
     hotels: [
       {
